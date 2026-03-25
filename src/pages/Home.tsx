@@ -20,11 +20,11 @@ const Home = () => {
 
             <div className='bg-black text-white flex flex-col h-screen w-full items-center bg-[url("https://assets.prebuiltui.com/images/components/hero-section/hero-background-image.png")] bg-cover bg-center bg-no-repeat pb-10'>
                
-              <div className="pt-10 flex-col rainbow relative z-0 bg-white/15 overflow-hidden p-px flex items-center justify-center rounded-full transition duration-300 active:scale-100 mt-28 md:mt-32">
+              <div className="pt-0 flex-col rainbow relative z-0 bg-white/15 overflow-hidden p-px flex items-center justify-center rounded-full transition duration-300 active:scale-100 mt-28 md:mt-32 px-0">
                     <button className="flex items-center justify-center gap-3 pl-4 pr-6 py-3 text-white rounded-full font-medium bg-gray-900/80 backdrop-blur">
-                        <div className="relative flex size-3.5 items-center justify-center pt-10">
+                        <div className="relative flex size-3.5 items-center justify-center pt-0">
                             <span className="absolute inline-flex h-full w-full rounded-full bg-[#A6FF5D] opacity-75 animate-ping duration-300"></span>
-                            <span className="relative inline-flex size-2 rounded-full bg-[#A6FF5D]"></span>
+                            <span className="pt-0 relative inline-flex size-2 rounded-full bg-[#A6FF5D] xs:pt-0"></span>
                         </div>
                         <span className='text-xs '>Build Your Own Websites in just an hour !</span>
                     </button>

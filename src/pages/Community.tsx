@@ -2,7 +2,7 @@ import React from 'react'
 
 const Community = () => {
   return (
-    <div>
+    <div className='text-green-500 pt-18'>
       community
     </div>
   )

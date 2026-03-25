@@ -6,11 +6,13 @@ import MyProjects from "./pages/MyProjects"
 import View from "./pages/View"
 import Preview from "./pages/Preview"
 import Community from "./pages/Community"
+import NavBar from "./components/NavBar"
 
 
 const App = () => {
   return (
     <div>
+      <NavBar/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects/:projectId" element={<Projects />} />

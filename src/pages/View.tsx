@@ -4,6 +4,7 @@ const View = () => {
   return (
      <div className='text-green-500'>
       view
+     
     </div>
   )
 }
